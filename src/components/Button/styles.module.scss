@@ -1,0 +1,28 @@
+.buttonContainer {
+  
+  align-items: center;
+  
+  height: 38px;
+	
+	
+	color: #15824B;
+	background: var(--white);
+
+	padding: 6px 12px;
+	margin-left: 0.4rem;
+	border-radius: .25rem;
+	border: none;
+	
+	font-family: Ubuntu Condensed;
+	font-size: 1rem;
+	cursor: pointer;
+	text-decoration: none;
+
+  &:hover{
+    background: var(--gray-100);
+    transition: 0.5s;
+    text-decoration: none;
+  }
+	
+}
+

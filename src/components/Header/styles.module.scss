@@ -1,24 +1,43 @@
 
 .headerContainer {
     background: #15824B;
-    height: 6.5rem;
+    
+    .container {
+        width: 94%;
+	    margin: 0 auto;
+        padding: 0 0.5rem;
+        
+        height: 6.5rem;
 
-    display: flex;
-    align-items: center;
-
-    font-family: Ubuntu Condensed;
-	
-	box-sizing: border-box;
-
-    a {
-        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        font-family: Ubuntu Condensed;
+        
+        box-sizing: border-box;
 
         h1 {
-            color: var(--gray-50);
-            padding: 1rem;
+            a {
+                padding: 1rem;
+                
+                color: var(--white);
+                text-decoration: none;
+            }
         }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            Button{
+                
+                display: block;
+
+                border-bottom: 1px solid #9799A6
+            }  
+        }   
     }
 }
+
 
 
 
