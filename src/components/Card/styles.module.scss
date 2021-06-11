@@ -1,0 +1,23 @@
+.cardContainer {
+  box-sizing: border-box;
+  
+  width: 25%;
+  padding: 40px 0;
+  margin: 10px;
+  
+    
+  background: var(--green-500);
+
+  padding: 0px;
+    
+  margin-bottom: 30px;
+  font-size: 1.4rem; /* 14px */
+
+  .imageCard {
+    max-height: 175px;	
+  	padding: auto;
+  	width: 100%;
+  	border-radius: 24px 24px 0% 0%;
+  }
+
+}
