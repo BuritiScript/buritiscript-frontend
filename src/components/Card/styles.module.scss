@@ -5,19 +5,24 @@
   padding: 40px 0;
   margin: 10px;
   
-    
   background: var(--green-500);
 
   padding: 0px;
-    
+
   margin-bottom: 30px;
   font-size: 1.4rem; /* 14px */
-
-  .imageCard {
-    max-height: 175px;	
-  	padding: auto;
-  	width: 100%;
-  	border-radius: 24px 24px 0% 0%;
+  border-radius: 24px;
+  .cardHeader {
+    .cardImage {
+      max-height: 175px;	
+      padding: auto;
+      width: 100%;
+      border-radius: 24px 24px 0 0;
+    }
   }
+  .cardBody {
+    border-radius: 0% 0% 24px 24px;
+	  background-color: #1FB264;
 
+  }
 }
