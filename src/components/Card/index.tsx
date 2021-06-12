@@ -11,14 +11,14 @@ export default function Card() {
         <img className={styles.cardImage} src="8BlueLilliesDone.gif" />
       </div>
       <div className={styles.cardBody}>
-        <a href="#">
+        <a href="#" className={styles.cardLink}>
           <div className={styles.cardType}>Artigo</div>
           <h2 className={styles.cardTitle} >O que é uma API REST</h2>
-          <footer className={styles.cardfooter}>
+          <footer className={styles.cardFooter}>
             <h5>
-              <i >person_outline</i>
+              <i ></i>
               <span ></span>
-              <i >date_ranger</i>
+              <i ></i>
               <span className={styles.cardDate} ></span>
             </h5>
           </footer>

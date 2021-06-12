@@ -4,16 +4,35 @@ import styles from './home.module.scss';
 
 export default function Home() {
   return (
-    <div className={styles.homepage}> 
+    <div className="container"> 
       <section className={styles.sessionCards}>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
-        
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            <div className="col-sm-4">
+              <Card/>
+            </div>
+            
+            
+          </div>
+        </div>
       </section>
     </div>
   )
