@@ -31,14 +31,14 @@
 
 @media (max-width: 720px) {
   html {
-      font-size: 87.5%;
+    font-size: 62.5%; /* 10px */
   }
 }
 
 body{
   background: var(--gray-50);
   margin: 0;
-
+  
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.6rem;
 
@@ -228,7 +228,7 @@ button {
   flex: 0 0 auto;
   width: auto;
 }
-
+@media (min-width: 576px) {
 .col-sm-1 {
   flex: 0 0 auto;
   width: 8.3333333333%;
@@ -287,4 +287,5 @@ button {
 .col-sm-12 {
   flex: 0 0 auto;
   width: 100%;
+}
 }

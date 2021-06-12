@@ -8,7 +8,7 @@ export function Header(){
      
         <header className={styles.headerContainer}> 
           <div className={styles.container}>
-            <h1><a href="#">BuritiScript</a></h1>
+          <a href="#"><h1 className={styles.headerLogo}>BuritiScript</h1></a>
 
             <nav>
               <Button title="Login"/>

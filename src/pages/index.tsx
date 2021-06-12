@@ -1,5 +1,5 @@
 import Card from '../components/Card';
-import { Header } from '../components/Header'
+
 import styles from './home.module.scss';
 
 export default function Home() {

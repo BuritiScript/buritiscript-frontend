@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
     <div className={styles.wrapper}>
       <main>
         <Head>
-        <meta name="viewport" content="width=device-width" />
+          <meta name="viewport" content="width=device-width" />
 
         </Head>
         <Header />

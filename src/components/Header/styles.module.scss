@@ -17,12 +17,15 @@
         
         box-sizing: border-box;
 
-        h1 {
-            a {
-                padding: 1rem;
+        a {
+            text-decoration: none;
+
+            h1 {
+                padding: 1.8rem;
                 
-                color: var(--white);
-                text-decoration: none;
+                color: var(--white);    
+                font-family: Ubuntu Condensed;
+                font-weight: bold;
             }
         }
         nav {
