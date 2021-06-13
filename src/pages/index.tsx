@@ -1,16 +1,18 @@
-import Card from '../components/Card';
+import { GetStaticProps } from 'next'; 
 
+import Card from '../components/Card';
 import styles from './home.module.scss';
 
-export default function Home(props) {
+type HomeProps = {
+  
+}
+
+export default function Home(props: HomeProps) {
   return (
     <div className="container"> 
       <section className={styles.sessionCards}>
         <div className="container">
           <div className="row">
-            <div className="col-sm-4">
-              <Card/>
-            </div>
             <div className="col-sm-4">
               <Card/>
             </div>
@@ -30,9 +32,11 @@ export default function Home(props) {
   )
 }
 
-export async function getStaticProps() {
-  return {
-    props: {},
-    revalidate: 60 * 60 * 1,
-  } 
+export const getStaticProps: GetStaticProps = async () => {
+ return {
+   props: {
+
+   },
+   revalidate: 60 * 60 * 1,
+ }
 }
